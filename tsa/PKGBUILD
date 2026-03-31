@@ -1,6 +1,6 @@
 # Maintainer: Will McCracken <tsa@lattefiend.com>
 pkgname=tsa
-pkgver=0.1.0
+pkgver=0.1.1
 pkgrel=1
 pkgdesc="CLI tool for managing Tailscale devices and users"
 arch=('x86_64' 'aarch64')
@@ -11,7 +11,7 @@ makedepends=('cargo')
 options=(!debug !lto)
 optdepends=('tailscale: required for signing locked-out devices')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/wmccracken/tsa/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('5d7994889717c1580f9a67aab19d59ab20d5238ef4e27a8e14bdc6991f366d52')
+sha256sums=('26e78c9a092498aaf86a3fb8b2ea14f849c4eb03420f7d10826f7f8d9c5668e3')
 
 prepare() {
     cd "$pkgname-$pkgver"
