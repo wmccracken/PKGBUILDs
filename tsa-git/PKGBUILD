@@ -1,6 +1,6 @@
 # Maintainer: Will McCracken <tsa@lattefiend.com>
 pkgname=tsa-git
-pkgver=0.1.0.r0.g37da045
+pkgver=0.1.0.r18.g1439274
 pkgrel=1
 pkgdesc="CLI tool for managing Tailscale devices and users"
 arch=('x86_64' 'aarch64')

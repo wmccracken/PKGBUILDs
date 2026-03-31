@@ -1,6 +1,6 @@
 pkgbase = tsa-git
 	pkgdesc = CLI tool for managing Tailscale devices and users
-	pkgver = 0.1.0.r0.g37da045
+	pkgver = 0.1.0.r18.g1439274
 	pkgrel = 1
 	url = https://github.com/wmccracken/tsa
 	arch = x86_64
